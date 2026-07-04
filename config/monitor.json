@@ -1,0 +1,40 @@
+{
+  "name": "Instagram Monitor Config",
+  "version": "1.0.0",
+  "description": "Configuration for monitoring Val-X Instagram account",
+  "accounts": [
+    {
+      "username": "val_x_international_",
+      "type": "business",
+      "monitor": {
+        "posts": true,
+        "reels": true,
+        "stories": true,
+        "followers": true,
+        "following": true,
+        "bio": true,
+        "profile_pic": true
+      }
+    }
+  ],
+  "notifications": {
+    "dashboard": {
+      "enabled": true,
+      "port": 8000
+    },
+    "webhook": {
+      "enabled": false,
+      "url": ""
+    },
+    "email": {
+      "enabled": false,
+      "smtp": ""
+    }
+  },
+  "settings": {
+    "check_interval": 60,
+    "be_human": true,
+    "enable_jitter": true,
+    "privacy_mode": true
+  }
+}

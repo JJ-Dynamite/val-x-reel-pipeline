@@ -1,0 +1,66 @@
+{
+  "name": "Val-X Reel Pipeline",
+  "version": "1.0.0",
+  "description": "Configuration for posting Val-X Reel to social media",
+  "integrations": {
+    "instagram": {
+      "name": "Instagram",
+      "handle": "@val_x_international_",
+      "post_type": "reel",
+      "is_trial_reel": false,
+      "hashtags": [
+        "ValX", "Startup", "Technology", "Kerala", "India",
+        "AI", "React", "Rust", "FullStack", "WebDev",
+        "Blockchain", "Cloud", "StartupLife", "Founder"
+      ]
+    },
+    "youtube": {
+      "name": "YouTube Shorts",
+      "handle": "Val-X",
+      "category": "28",
+      "tags": [
+        "ValX", "Startup", "Technology", "Kerala", "India",
+        "Shorts", "TechStartup", "FullStack"
+      ]
+    },
+    "tiktok": {
+      "name": "TikTok",
+      "handle": "@val_x",
+      "hashtags": [
+        "ValX", "Startup", "Technology", "Kerala", "India",
+        "TechTok", "Coding", "FullStack"
+      ]
+    },
+    "twitter": {
+      "name": "X (Twitter)",
+      "handle": "@val_x_intl",
+      "hashtags": [
+        "ValX", "Startup", "Technology", "Kerala", "India"
+      ]
+    }
+  },
+  "schedule": {
+    "optimal_times": {
+      "instagram": ["09:00", "12:00", "18:00", "21:00"],
+      "youtube": ["12:00", "17:00", "19:00"],
+      "tiktok": ["10:00", "14:00", "19:00", "22:00"],
+      "twitter": ["08:00", "12:00", "17:00"]
+    },
+    "timezone": "Asia/Kolkata"
+  },
+  "content": {
+    "instagram": {
+      "caption": "🚀 Val-X — Transforming Ideas into Global Businesses\n\n🔧 Full-Stack | AI/ML | Cloud | Blockchain\n📍 Kozhikode, Kerala → Global\n\n#ValX #Startup #Technology #Kerala #India #AI #React #Rust"
+    },
+    "youtube": {
+      "title": "Val-X — Your Technology Partner from Kerala",
+      "description": "Val-X International Technologies — transforming innovative ideas into successful global businesses.\n\n🌐 www.val-x.com"
+    },
+    "tiktok": {
+      "caption": "Val-X — Ideas-ine Reality aakki maattunna place 🔥\n\n#ValX #TikTok #TechStartup #Kerala"
+    },
+    "twitter": {
+      "text": "🚀 Introducing Val-X — Your Technology Partner\n\nFrom Kozhikode to the Global Market\n\nFull-Stack | AI/ML | Cloud | Blockchain\n\n#ValX #Startup #Technology"
+    }
+  }
+}

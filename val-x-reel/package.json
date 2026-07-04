@@ -1,0 +1,27 @@
+{
+  "name": "val-x-reel",
+  "version": "1.0.0",
+  "description": "Val-X Motion Graphic Instagram Reel",
+  "scripts": {
+    "start": "npx remotion studio",
+    "build": "npx remotion render src/index.ts ValXReel out/val-x-reel.mp4",
+    "build:instagram": "npx remotion render src/index.ts ValXReel out/instagram-reel.mp4 --codec=h264",
+    "build:youtube": "npx remotion render src/index.ts ValXReel out/youtube-short.mp4 --codec=h264",
+    "build:tiktok": "npx remotion render src/index.ts ValXReel out/tiktok.mp4 --codec=h264",
+    "build:x": "npx remotion render src/index.ts ValXReel out/x-post.mp4 --codec=h264",
+    "upgrade": "npx remotion upgrade"
+  },
+  "dependencies": {
+    "remotion": "4.0.484",
+    "@remotion/cli": "4.0.484",
+    "@remotion/transitions": "4.0.484",
+    "@remotion/noise": "4.0.484",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  }
+}
